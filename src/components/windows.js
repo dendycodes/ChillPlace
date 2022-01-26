@@ -1,7 +1,7 @@
 import React from "react";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
-import "./windows.css";
+import "./windows.scss";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import PlayArrowIcon from "@material-ui/icons/PlayArrow";

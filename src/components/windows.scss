@@ -52,20 +52,23 @@
     align-items: center;
     margin: 0;
     width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: rgba(39, 39, 39, 0.26);
   }
 
   .paper {
     padding: 0px;
     height: 400px;
     font-size: 15px;
-    border-radius: 0px !important;
+    border-radius: 20px !important;
     overflow: hidden;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-
+    margin: 4px;
     background: #2b5876; /* fallback for old browsers */
     background: -webkit-linear-gradient(
       to right,
@@ -73,6 +76,8 @@
       #2b5876
     ); /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #4e4376, #2b5876);
+    border: 3px solid rgba(0, 0, 0, 0.459);
+    transition: 0.3s;
   }
 
   .paper h3 {
