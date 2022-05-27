@@ -1,5 +1,5 @@
 #one {
-  background-image: url("https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=687&q=80");
+  background-image: url("https://res.cloudinary.com/denizmemduev/image/upload/v1653677864/chillplace/photo-1515694346937-94d85e41e6f0_dtjf1f.avif");
   background-position: center;
   background-size: cover;
 }
@@ -54,7 +54,7 @@
     width: 100%;
     box-sizing: border-box;
     padding: 5px;
-    background-color: rgba(39, 39, 39, 0.26);
+    background-color: rgba(39, 39, 39, 0);
   }
 
   .paper {
@@ -69,13 +69,13 @@
     flex-direction: column;
     flex-wrap: wrap;
     margin: 4px;
-    background: #2b5876; /* fallback for old browsers */
+    background: #787b7e00; /* fallback for old browsers */
     background: -webkit-linear-gradient(
       to right,
-      #4e4376,
-      #2b5876
+      #4e437600,
+      #2b587600
     ); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #4e4376, #2b5876);
+    background: linear-gradient(to right, #4e437600, #2b587600);
     border: 3px solid rgba(0, 0, 0, 0.459);
     transition: 0.3s;
   }
